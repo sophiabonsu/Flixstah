@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class MovieGridViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
     
@@ -36,8 +37,9 @@ class MovieGridViewController: UIViewController,UICollectionViewDataSource,UICol
             self.movies = dataDictionary["results"] as! [[String:Any]]
             
               
+            self.collectionView.reloadData()
             
-                print(self.movies)
+            print(self.movies)
            
            }
         }
