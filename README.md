@@ -24,7 +24,7 @@ Flixstah is an app that allows users to browse movies from the [The Movie Databa
 ### App Walkthrough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="http://g.recordit.co/UE9fmsKsbj.gif" width=250><br>
+<img src="http://g.recordit.co/4VlVIsDJQF.gif" width=250><br>
 
 ### Notes
 I had trouble with the AlamofireImage Library and connecting to the posterView, but I read through the discussion and tried some of the options.Though a message appear from xcode saying it fixed an issue. I wasn't sure if it was fixing the setImage(with URL) issue I was having.
